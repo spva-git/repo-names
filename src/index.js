@@ -5,6 +5,12 @@ import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import configureStore from "./redux";
 import { TaskList } from "./containers";
+import './index.css';
+
+import theme from './theme';
+import './styles.css';
+
+
 
 const store = configureStore();
 const AppRoot = () => {
