@@ -2,9 +2,6 @@ import React from "react";
 import Header from './Header';
 import Results from './Results';
 
-import Select from "@material-ui/core/Select";
-import ENDPOINTS from "../../constants";
-
 class TaskList extends React.Component {
   constructor(props) {
     console.log('aaaaa',props)

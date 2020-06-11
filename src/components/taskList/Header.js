@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Popup from "reactjs-popup";
 import Results from './Results';
 
-//import SearchFilters from './SearchFilters';
-
 class Header extends Component {
 	constructor(props) {
 		super(props);
@@ -37,6 +35,4 @@ class Header extends Component {
 		);
 	}
 }
-
-
 export default Header;
